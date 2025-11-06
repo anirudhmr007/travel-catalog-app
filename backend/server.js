@@ -14,7 +14,7 @@ connectDB();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://travel-catalog-frontend.onrender.com'
+    'https://travel-catalog-app.onrender.com'
   ],
   credentials: true,
 }));
